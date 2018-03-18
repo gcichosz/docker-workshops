@@ -1,5 +1,3 @@
-TODO: Rebase, tag, and push to GitHub
-
 1. Run hello world container
 2. Run dotnet hello world application in a container, using a shared folder, from the container
 3. Run dotnet hello world application in a container, using a shared folder, from command line
