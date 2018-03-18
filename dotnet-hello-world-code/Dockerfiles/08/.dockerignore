@@ -1,0 +1,5 @@
+bin/
+obj/
+Dockerfiles/
+redundant/
+!redundant/not_redundant_file.txt
