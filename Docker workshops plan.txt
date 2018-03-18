@@ -1,25 +1,11 @@
-1. container hello world
-2. running dotnet Web API hello world in a container via shared folder from container
-3. running dotnet Web API hello world in a container via shared folder from command line
-4. running dotnet Web API hello world in a container via copy from command line
-5. running dotnet Web API hello world in a container via copy with dockerfile
-6. building dotnet Web API hello world in a container from command line
-7. building dotnet Web API hello world in a container from dockerfile
-8. building and running dotnet Web API hello world in a container from multi staged dockerfile
-9. publishing an image to docker hub and running it on another machine
-10? docker compose
+TODO: Rebase, tag, and push to GitHub
 
-Requirements:
-  * Docker for Windows (keep Linux containers!)
-  * Github account
-  * docker pull (list of images)
-  * docker hub account
-
-How Docker can help us developers:
-  * use it as system requirements for the application
-  * distribute application within a team
-  * forget about different environment versions on your local machine
-  * safe sand-boxing
-  * forget about build tools at all on your local machine
-  * build a CI/CD pipeline within it, and have pipeline config as code
-  * run application in an environment exactly like on production
+1. Run hello world container
+2. Run dotnet hello world application in a container, using a shared folder, from the container
+3. Run dotnet hello world application in a container, using a shared folder, from command line
+4. Run dotnet hello world application in a container, using copy, from Dockerfile
+5. Build dotnet hello world application in a container, from command line
+6. Build dotnet hello world application in a container, from Dockerfile
+7. Build and run dotnet hello world application in a container, from a one stage Dockerfile
+8. Build and run dotnet hello world application in a container, from a multi stage Dockerfile
+9. Publish an image to Docker Hub and run it on another machine

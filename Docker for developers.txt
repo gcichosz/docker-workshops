@@ -1,0 +1,8 @@
+How Docker can help us developers:
+  * use it as system requirements for the application
+  * distribute application within a team
+  * forget about different environment versions on your local machine
+  * safe sand-boxing
+  * forget about build tools at all on your local machine
+  * build a CI/CD pipeline within it, and have pipeline config as code
+  * run application in an environment exactly like on production

@@ -1,0 +1,4 @@
+Requirements:
+  * Docker for Windows (keep Linux containers!)
+  * docker pull (list of images)
+  * docker hub account
