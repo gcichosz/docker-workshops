@@ -1,0 +1,1 @@
+docker run --rm -it -v <path_to_code>:/app --workdir /app microsoft/aspnetcore-build:2.0.5-2.1.4-stretch bash -c "dotnet publish -c Release -o ./dotnet-hello-world-release"
